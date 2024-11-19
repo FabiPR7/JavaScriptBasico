@@ -1,0 +1,18 @@
+body{
+    text-align: center;
+    background-color:rgb(27, 47, 114);
+    color: rgb(201, 201, 201);
+    font-weight: bold;
+    font-size: 110%;
+}
+fieldset{
+    border: 10px solid rgb(26, 17, 17);  
+}
+legend{
+    position: relative;
+    font-size: 140%;
+}
+h2{
+    font-size: 400%;
+    margin: 0px 0px 0px 0px;
+}

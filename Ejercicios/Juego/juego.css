@@ -1,0 +1,57 @@
+:root{
+--letraColor: white;
+
+}
+
+
+
+body{
+   background-image: url("https://th.bing.com/th?id=OIP.JqdlhPD9JVnORdGMQhEh1QHaHa&w=250&h=250&c=8&rs=1&qlt=90&o=6&pid=3.1&rm=2");
+    background-repeat: no-repeat;
+    background-size: cover;
+   font-size: 120%;
+    font-family: sans-serif;
+    font-weight: bold;
+}
+main{
+
+    display: flex;
+    border: 1px solid black;
+    align-items: center;
+    justify-content: center;
+}
+button{
+    color: var(--letraColor);
+    font-size: 150%;
+    width:4rem ;
+    height: 4rem;
+    border-radius: 8px;
+    background: linear-gradient(145deg, #1f1b36, #4e41af);
+    box-shadow:  5px 5px 11px #463b9d,
+             -5px -5px 11px #4c3fab;
+}
+.seccion1{
+    background-color: rgb(0,0,0,0.6);
+     text-align: center;
+    color: var(--letraColor);
+    border: 1px solid black;
+    -webkit-box-shadow: 0px 1px 66px 44px rgba(59,51,59,0.73);
+    -moz-box-shadow: 0px 1px 66px 44px rgba(59,51,59,0.73);
+    box-shadow: 0px 1px 66px 44px rgba(59,51,59,0.73)
+}
+.seccion2{
+    margin-left: 5rem;
+   font-size: 80%;
+   background-color: rgb(0,0,0,0.6);
+    border: 1px solid black;
+    color:  var(--letraColor);
+    -webkit-box-shadow: 0px 1px 66px 44px rgba(59,51,59,0.73);
+    -moz-box-shadow: 0px 1px 66px 44px rgba(59,51,59,0.73);
+    box-shadow: 0px 1px 66px 44px rgba(59,51,59,0.73)
+    }
+h2{
+    margin-top: 50px;
+    text-align: center;
+    color: var(--letraColor);
+    text-shadow: 0px 0px 8px yellow;
+}

@@ -1,0 +1,77 @@
+@font-face{
+    font-family: "fuente";
+    src: url("Nosifer-Regular.ttf") format("truetype");
+}
+:root{
+    --letraColor: white;
+    --bkground : rgb(255, 94, 0);
+
+}
+body{
+    text-align: center;
+    font-weight: bold;
+    color: var(--letraColor);
+    background: rgb(255,255,255);
+    background: linear-gradient(0deg, rgba(255,255,255,1) 0%, rgba(0,0,0,1) 50%);
+    background-repeat: no-repeat;
+    height: 90vh;
+}
+h1{
+   font-family: fuente;
+   font-size: 3rem;
+   margin: 0 auto;
+   margin-top: 2.5rem;
+}
+h4{
+    font-family: fuente;
+    margin: 0 auto;
+    font-size: 3rem;
+}
+form{
+    margin-top: 3.4rem;
+}
+form input[type="text"]{
+    background-color: black;
+    border-style: none;
+    width: 13rem;
+    height: 2rem;
+    color: var(--letraColor);
+}
+form input[type="text"]::placeholder{
+    color: white;
+}
+form input[type="text"]:focus{
+    outline: none;
+}
+form input[type="submit"]{
+    height: 2rem;
+    width: 2rem;
+    border-radius: 50%;
+}
+.lista-container{
+    margin: 2rem auto;
+    display: grid;
+    grid-template-columns: 1;
+    grid-template-rows: auto;
+    justify-content: space-between;
+    width: 25rem;
+    height: 10rem;
+    overflow-y: auto;
+    overflow-x: auto;
+
+}
+.task-container{
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+    overflow: hidden;
+    margin: 0s auto;
+    align-items: center;
+    padding-top: 10PX;
+    width: 20rem;
+    height: 1.5rem;
+    text-align: center;
+    background-color: rgba(0,0,0,0.5);
+}
+h3{
+    color: black;
+}
